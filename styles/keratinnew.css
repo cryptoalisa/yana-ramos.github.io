@@ -1,0 +1,71 @@
+h1 {
+
+    color: #c21e4e;
+  
+  font-size: 45px;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 205px;
+    
+    
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 280px;
+    margin: 30px;
+    align-items: center;
+    
+    
+    font-size: 30px;
+    height: 220px;
+  }
+
+  .image1 {
+
+    background-image: url("../assets/keratinlash.jpg");
+    background-position: center;
+    border-radius: 10px;
+  }
+  .image2 {
+
+    background-image: url("../assets/keratinlash1.jpg");
+    background-position: center;
+    border-radius: 10px;
+  }
+  .image3 {
+
+    background-image: url("../assets/keratinlash2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+
+  .text {
+    display:flex;
+    font-size: 28px;
+    font-family: 'Patrick Hand', cursive;
+    padding: 50px 30px;
+    color: #c21e4e;
+    text-align: center;
+    
+  }
+  @media only screen and (max-width: 800px) {
+
+    .flex-container .image1, .image2, .image3 {
+
+        display: none
+
+    }
+
+
+
+  }
+  
